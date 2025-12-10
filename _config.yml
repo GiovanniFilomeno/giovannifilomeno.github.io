@@ -102,10 +102,10 @@ external_sources:
 collections:
   books:
     output: true
-  news:
-    defaults:
-      layout: post
-    output: true
+  #news:
+  #  defaults:
+  #    layout: post
+  #  output: true
   projects:
     output: true
   publications:
@@ -189,12 +189,12 @@ terser:
     drop_console: true
 
 jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] 
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+  #posts:
+  #  enabled: [year, tags, categories] 
+  #  permalinks:
+  #    year: "/blog/:year/"
+  #    tags: "/blog/:type/:name/"
+  #    categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] 
 
