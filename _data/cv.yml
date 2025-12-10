@@ -2,96 +2,108 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Giovanni Filomeno
+    - name: Year of Birth
+      value: 1993
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Italian (Native), English (Proficient), German (Proficient), Chinese (Basic)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI/ML Lead Engineer
+      institution: BMW Group, Munich, Germany
+      year: 11/2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Lead of AI task force for critical braking system recalls, developing multimodal models (audio, time-series, image) with 91% accuracy.
+        - Extended NLP models context window (4096+ tokens) for long-document analysis.
+        - Management of 500k € annual budget for strategic AI initiatives and cloud services.
+
+    - title: Research Position (Computer Graphics)
+      institution: Johannes Kepler University, Linz, Austria
+      year: 03/2025 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Developing convolutional architectures for focus-based image segmentation using learned noise statistics.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Assistant (Ophthalmology & AI)
+      institution: Medical University of Vienna, Austria
+      year: 05/2024 - 02/2025
       description:
+        - Implemented Deep Learning and Implicit Neural Networks (INN) for retina vessel identification in low-res images.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: AI/ML Specialist
+      institution: BMW Group, Munich, Germany
+      year: 01/2022 - 11/2024
+      description:
+        - Designed AWS ETL pipelines processing 350+ parameters from 200k vehicles.
+        - Deployed predictive maintenance models reducing recalls by 30%.
+        - Fine-tuned GPT-2/LLMs for multilingual damage classification (86% accuracy) and mechanic support.
 
-- title: Open Source Projects
+    - title: Research Scientist (Optimization)
+      institution: BMW Group, Munich, Germany
+      year: 10/2018 - 12/2021
+      description:
+        - Developed bi-objective genetic algorithms for powertrain component positioning, achieving 13.6% volume reduction.
+
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: M.Sc. in Artificial Intelligence
+      institution: Johannes Kepler University, Linz, Austria
+      year: 10/2023 - Present
+      description:
+        - Advisor Prof. Sepp Hochreiter. Thesis on Direct Preference Optimization (DPO) vs RLHF.
+    
+    - title: Ph.D. (Dr.-Ing.) in Optimization & Numerical Methods
+      institution: Ruhr-University Bochum, Germany
+      year: 07/2018 - 03/2023
+      description:
+        - Thesis on Automation of Design Synthesis for EV Transmissions using Multi-objective Optimization.
+
+    - title: M.Sc. in Management
+      institution: Technical University Munich (TUM), Germany
+      year: 11/2020 - 11/2023
+      description:
+        - Focus on Tech Strategy & Optimization of Logistic Networks.
+
+    - title: M.Sc. in Computational Mechanics
+      institution: Technical University Munich (TUM), Germany
+      year: 10/2015 - 11/2017
+      description:
+        - Thesis on Matrix-Free Conjugate Gradient Method for Finite Cell Method.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024 & 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - JKU Merit Scholarship for Academic Excellence (x2)
+    - year: 2024
       items:
-        - Max Planck Medal
+        - BMW Taskforce Award for ZF 8HP Recall (Cost saving > 10M €)
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: <a href="https://dcase.community/documents/challenge2025/technical_reports/Filomeno_JKU_task6_1.technical_report.pdf" target="_blank">DCASE 2025 Challenge (Technical Report)</a>
+      year: 2025
+      description: 
+        - Designed a dual-encoder system (PaSST + RoBERTa) for Language-based Audio Retrieval.
+        - Achieved mAP@10 = 36.005%, outperforming the official baseline.
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Multimodal Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Missing Modalities handling
+        - Audio-Text Retrieval
+    - title: Optimization
       items:
-        - Description 1.
-        - Description 2.
+        - Genetic Algorithms
+        - Multi-objective Optimization
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Gaming, Technology, Music
